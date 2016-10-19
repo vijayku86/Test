@@ -196,13 +196,22 @@
 				TargetAttributes = {
 					A5A556C61D31103500F37CC4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JFRRV7DF87;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 					A5A556DC1D31103500F37CC4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JFRRV7DF87;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 						TestTargetID = A5A556C61D31103500F37CC4;
 					};
 					A5A556E71D31103500F37CC4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JFRRV7DF87;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 						TestTargetID = A5A556C61D31103500F37CC4;
 					};
 				};
@@ -403,10 +412,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JFRRV7DF87;
 				INFOPLIST_FILE = TabBarExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.niit-tech.TabBarExample";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niit-tech.Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -414,10 +426,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JFRRV7DF87;
 				INFOPLIST_FILE = TabBarExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.niit-tech.TabBarExample";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niit-tech.Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -425,10 +440,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JFRRV7DF87;
 				INFOPLIST_FILE = TabBarExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.niit-tech.TabBarExampleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBarExample.app/TabBarExample";
 			};
 			name = Debug;
@@ -437,10 +455,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JFRRV7DF87;
 				INFOPLIST_FILE = TabBarExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.niit-tech.TabBarExampleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBarExample.app/TabBarExample";
 			};
 			name = Release;
@@ -448,10 +469,13 @@
 		A5A556F81D31103500F37CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JFRRV7DF87;
 				INFOPLIST_FILE = TabBarExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.niit-tech.TabBarExampleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = TabBarExample;
 			};
 			name = Debug;
@@ -459,10 +483,13 @@
 		A5A556F91D31103500F37CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JFRRV7DF87;
 				INFOPLIST_FILE = TabBarExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.niit-tech.TabBarExampleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = TabBarExample;
 			};
 			name = Release;
@@ -486,6 +513,7 @@
 				A5A556F31D31103500F37CC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5A556F41D31103500F37CC4 /* Build configuration list for PBXNativeTarget "TabBarExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +522,7 @@
 				A5A556F61D31103500F37CC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5A556F71D31103500F37CC4 /* Build configuration list for PBXNativeTarget "TabBarExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +531,7 @@
 				A5A556F91D31103500F37CC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
